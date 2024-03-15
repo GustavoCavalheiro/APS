@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Voltar</a></li>
+        </ul>
+    </nav>
+    <h1>Listas</h1>
+
+    <h2>Lista ordernada</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <h2>Lista não-ordernada</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <table border="1">
+        <caption></caption>
+          Front-end web developer course 2021
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Person</th>
+            <th scope="col">Most interest in</th>
+            <th scope="col">Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Chris</th>
+            <td>HTML tables</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <th scope="row">Dennis</th>
+            <td>Web accessibility</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <th scope="row">Sarah</th>
+            <td>JavaScript frameworks</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <th scope="row">Karen</th>
+            <td>Web performance</td>
+            <td>36</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">Average age</th>
+            <td>33</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h1>Tabelas</h1>
+
+      <h2>Tabela Simples</h2>
+      <table border="1">
+          <caption>Primeira Tabela</caption>
+          <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+          </tr>
+          <tr>
+              <td>Jonathan</td>
+              <td>+55 47 99990798</td>
+          </tr>
+      </table>
+  
+      <h1>Tabela com colspan</h1>
+      <table border="1">
+          <caption>Primeira Tabela</caption>
+          <tr>
+              <th>Nome</th>
+              <th colspan="2">Telefone</th>
+          </tr>
+          <tr>
+              <td>Jonathan</td>
+              <td>+55 47 99990798</td>
+              <td>+55 47 99990798</td>
+          </tr>
+      </table>
+  
+      <h1>Tabela com rowspan</h1>
+      <table border="1">
+          <caption>Tabela com rowspan</caption>
+          <tr>
+              <th>Nome</th>
+              <th>Jonathan</th>
+          </tr>
+          <tr>
+              <th rowspan="2">Telefone</th>
+              <td>+55 47 99990798</td>
+          </tr>
+          <tr>
+              <td>+55 47 99990798</td>
+          </tr>
+      </table>
+  
+      <h1>Desafio</h1>
+  
+      <h2>colspan e rowspan</h2>
+      <table border="1">
+          <tr>
+              <td>Horário</td>
+              <td>Segunda-feira</td>
+              <td>Terça-feira</td>
+          </tr>
+          <tr>
+              <td>8:00</td>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+          </tr>
+          <tr>
+              <td rowspan="2">9:00</td>
+              <td>Estudo</td>
+              <td>Estudo</td>
+          </tr>
+          <tr>
+              <td>Trabalho</td>
+              <td>Trabalho</td>
+          </tr>
+          <tr>
+              <td>10:00</td>
+              <td colspan="2">Lazer</td>
+          </tr>
+      </table>
+</body>
+</html>
